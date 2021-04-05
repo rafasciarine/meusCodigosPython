@@ -52,8 +52,5 @@ while option != 0:
     if option == 3:
         c1.return_balance()
 
-    if option == 4:
-        c1.rename(input('Digite o novo nome do correntista: '))
-
     if option == 0:
         print('\nConta-corrente encerrada. Volte sempre!')
