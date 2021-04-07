@@ -51,12 +51,3 @@ class Stack:
 
     def top(self):
         print(self.items[-1])
-
-
-s = Stack()
-
-s.push(5)
-s.push(6)
-s.push(566)
-
-s.top()
